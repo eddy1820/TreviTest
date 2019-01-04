@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TreviTest</string>
+    <string name="column">Column:</string>
+    <string name="row">Row:</string>
+    <string name="confirm">confirm</string>
+    <string name="random">random</string>
+    <string name="ok">確定</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:paddingStart="1dp"
+        android:paddingEnd="1dp">
+
+
+    <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ok"
+            android:enabled="false"
+            />
+
+    <View
+            android:id="@+id/leftLineView"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:visibility="gone"
+            />
+
+    <View
+            android:id="@+id/rightLineView"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            />
+
+    <View
+            android:id="@+id/bottomLineView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            />
+</RelativeLayout>
