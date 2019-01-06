@@ -12,7 +12,7 @@
             android:id="@+id/view1"
             android:layout_width="60dp"
             android:layout_height="80dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@android:color/holo_green_light"
             android:alpha="0.5"
             android:paddingTop="3dp">
     </View>
@@ -34,7 +34,7 @@
             android:layout_width="60dp"
             android:layout_height="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:background="@android:color/holo_blue_light"
+            android:background="@android:color/holo_green_light"
             android:paddingBottom="3dp"
             />
 
